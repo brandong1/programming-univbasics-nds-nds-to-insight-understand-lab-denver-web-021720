@@ -12,7 +12,7 @@ def print_first_directors_movie_titles
   spielberg_array = directors_database[0][:movies]
   index = 0 
   
-  while index < directors_database.size do
+  while index < spielberg_array.size do
     movie_titles = spielberg_array[index][:title]
     puts movie_titles
     index += 1 
